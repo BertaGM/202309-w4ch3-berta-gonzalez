@@ -1,5 +1,7 @@
 :root {
   --font-family: "Roboto", sans-serif;
+  --font-main-color: #fff;
+  --font-secondary-color: #000;
 }
 
 *,
@@ -27,4 +29,30 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.shopping-list-container {
+  background-color: #289988;
+  color: var(--font-main-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.3rem 0;
+}
+
+.website-title {
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+.navigation-menu {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  font-size: 0.7rem;
+  padding: 0.3rem;
 }
