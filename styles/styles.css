@@ -12,6 +12,7 @@
 
 html {
   font-family: var(--font-family);
+  background-color: #fec844;
 }
 
 body,
@@ -71,4 +72,44 @@ a {
 
 .icon {
   font-size: 1.2rem;
+}
+
+.article-container {
+  padding: 18px 15px;
+}
+
+.add-article-title {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.68rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.form-box {
+  width: 10rem;
+  height: 1.8rem;
+  border: 0;
+  margin-right: 0.2rem;
+}
+
+.send-form {
+  font-family: var(--font-family);
+  font-size: 0.6rem;
+  font-weight: 300;
+  background-color: #43a080;
+  color: var(--font-main-color);
+  padding: 10px;
+  width: 3rem;
+  margin-top: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.shopping-label-text {
+  padding: 10px 0;
 }
